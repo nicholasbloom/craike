@@ -1,6 +1,6 @@
 Package: craike
 Title: Custom functions for Nick, by Nick
-Version: 1.0
+Version: 1.2
 Authors@R: "Nick Bloom <nick.bloom@duke.edu> [aut, cre]"
 Description: Does stuff that I want to, so I don't lose my functions when I clear the environment
 Depends:

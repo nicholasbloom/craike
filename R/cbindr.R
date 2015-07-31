@@ -17,8 +17,7 @@
 
 
 cbindr  <- function(df,colts,pattern,newnames){
-  colts <- eval(colts,envir=df)
-  tdf <- colsplit(df$colts,pattern,newnames)
+  tdf <- colsplit(df[[colts]],pattern,newnames)
   df <- cbind(df,tdf)
   return(df)
 }
